@@ -39,30 +39,16 @@ export default class Header extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={Link} to="/">Home</NavLink>
+                <NavLink tag={Link} to="/">HOME</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/portfolio">Portfolio</NavLink>
+                <NavLink tag={Link} to="/about">ABOUT</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/services">Services</NavLink>
-              </NavItem>
-              
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Team
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    <NavLink tag={Link} to="/team">The Team</NavLink>
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
-              <NavItem>
-                <NavLink tag={Link} to="/contact">Contact</NavLink>
+                <NavLink tag={Link} to="/contact">CONTACT</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/about">About</NavLink>
+                <NavLink tag={Link} to="/team">TEAM</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

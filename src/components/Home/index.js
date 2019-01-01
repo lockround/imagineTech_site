@@ -25,7 +25,7 @@ class HomeContainer extends Component {
     render() {
         let { marketing, react, ui, backend } = this.state;
         return (
-            <div>
+            <div className="mb-5">
                 <HomeContent
                 marketing = { marketing }
                 react = { react }

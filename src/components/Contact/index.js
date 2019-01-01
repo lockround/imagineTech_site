@@ -1,65 +1,33 @@
-import React, { Component } from 'react';
-import { Container, Col, Row } from 'reactstrap';
-import ContactForm from './Form';
+import React from 'react';
+import { Row, Col } from 'reactstrap';
 import Heading from '../Home/repeats/Heading';
+import Paragraph from '../Home/repeats/Paragraph';
 
-class ContactContainer extends Component {
-
-    state = {
-        local: {}
-    }
-
-    handleSubmit = e => {
-        const { local } = this.state;
-        const { input_one, input_two, input_three } = e.target;
-        e.preventDefault();
-        input_one.value = "";
-        input_two.value = "";
-        input_three.value = "";
-        console.log(local)
-    }
-
-    handleChange = e => {
-        const { local } = this.state;
-        const { name, value } = e.target;
-        this.setState({
-            local: { ...local, [name]: value }
-        })
-    }
-
-    render() {
-        return (
-            <div style={{backgroundColor:'#f4f4f4',padding:'1em',color:'black'}}>
-            <Container>
-                <Row>
-                
-                    <Col className="mt-4 single-shadowed" lg="6" style={{padding:'2em',backgroundColor:'#3398ff'}}>
-                        <h3 style={{borderBottom:'1px dashed #ccc',paddingBottom:'10px',fontFamily:'Lato'}}>Send us your query</h3>
-                        <ContactForm submit={this.handleSubmit} change={this.handleChange} />
-                    </Col>
-                    <Col className="mt-4 offset-lg-1" lg="5">
-                        <Heading color="#3398ff">Contact Us</Heading>
-                <p>Our team is always on the lookout for new partnership opportunities. Whether you want to talk web design, react, or marketing, drop us a line, we would love to hear from you!</p>
-                
-                    <div class="bd-example">
-                      <address>
-                        <strong>ImagineTech, Inc.</strong><br/>
-                        1355 Market St, Suite 901<br/>
-                        Salt Lake City, UT 84101<br/>
-                        <abbr title="Phone">P:</abbr> (908) 546-0561
-                      </address>
-                    
-                      <address>
-                        <strong>Mail at:</strong><br/>
-                        info@imaginetech.net
-                      </address>
-                    </div>
-                    </Col>
-                </Row>
-            </Container>
-            </div>
-        )
-    }
+const rowStyles = {
+    backgroundImage: `url("../assets/img/backg.png")`,
+    height: '473px',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    color:'black'
 }
 
-export default ContactContainer;
+const Contact = () => {
+    return (
+        <Row style={{...rowStyles}}>
+            <Col className="p-4 offset-lg-6 offset-md-6" xs="12" sm="12" md="12" lg="12" xl="6">
+                <Heading className="animated pulse" bcolor="#004191">Contact Us</Heading>
+                {/*<p>Our team is always on the lookout for new partnership opportunities. Whether you want to talk web design, react, or marketing, drop us a line, we would love to hear from you!</p>*/}
+                <p>Need to get in touch with us? Please feel free to use any of our fancy interstellar communications listed below and let us know how we can help you.</p>
+                <p>Phone: (908) 546-0561</p>
+                <p>Email: info@imaginetech.net</p>
+                <p>Morse Code: -_--</p>
+                    
+                </Col>
+            
+        </Row>
+    )
+}
+
+export default Contact;
+

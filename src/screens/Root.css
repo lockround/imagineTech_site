@@ -127,3 +127,20 @@ div>div.container>div>div>div {
 .bg-header {
     background-color: #101022;
 }
+
+nav>div>ul>li {
+    border-right: 3px solid white;
+    padding-right: 1em;
+    margin-right: 1em;
+}
+
+nav>div>ul>li:last-of-type {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+nav>div>ul>li>a {
+    font-size: 1.5rem;
+
+}
