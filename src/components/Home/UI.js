@@ -8,14 +8,15 @@ const rowStyles = {
     height: '473px',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
+    borderBottom:'3px solid #3398ff'
 }
 
 const UI = () => {
     return (
         <Row style={{...rowStyles}}>
             <Col className="p-4 offset-md-6 offset-lg-6" xs="12" sm="12" md="12" lg="12" xl="6">
-                    <Heading className="animated pulse" bcolor="#004191">UX/UI Design</Heading>
+                    <Heading className="animated pulse pb-3 mb-3" bcolor="#004191">UX/UI Design</Heading>
                     <p className="para animated pulse">
                         A UX designer will consider the Why, What and How of product use. The Why involves the users’ motivations for adopting a product, whether they relate to it, or to the values and views associated with the ownership and use of the product. 
                         The What addresses the things people can do with a product - its functionality. 

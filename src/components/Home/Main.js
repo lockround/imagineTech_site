@@ -7,8 +7,9 @@ const rowStyles = {
     backgroundPosition: 'top',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    fontFamily:'PT Sans',
-    fontWeight:'400'
+    fontFamily:'Roboto',
+    fontWeight:'300',
+    borderBottom:'3px solid #3398ff'
 }
 
 const Main = () => {
