@@ -1,37 +1,43 @@
 import React, { Component } from 'react';
-import {Container} from 'reactstrap';
+import {Row,Col} from 'reactstrap';
 import TeamList from './List';
+import Heading from '../Home/repeats/Heading';
 
-// const headStyles = {
-//     backgroundColor:'rgb(26, 108, 204)',
-//     paddingTop:'1em',
-//     paddingBottom:'1em',
-//     borderBottom:'5px solid green',
-//     marginBottom:'1em',
-//     fontFamily:'Lato'}
-
+const rowStyles = {
+    backgroundImage: `url("../assets/team/jazz.jpeg")`,
+    height: '473px',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    color:'black'
+}
 
 class TeamContainer extends Component {
 
     state = {
         members: [
-            { id: 1, name: "Jahaziel Vazquez", role: "CEO",img:"https://randomuser.me/api/portraits/thumb/men/65.jpg" }
+            { id: 1, name: "Jahaziel Vazquez", desc:"Jahaziel is the CEO of ImagineTech. He likes walks on the beach and ice cold milks. He considers himself hummus connisour. His favorite band is captain sparky and hurry-ups.",role: "CEO",img:"https://randomuser.me/api/portraits/thumb/men/65.jpg" }
         ]
     }
 
     render() {
         const { members } = this.state;
         return (
-            <div style={{backgroundColor:'#f4f4f4'}}>
-                <Container>
-                    <h1 className="text-center text-dark p-3 border-bottom" style={{fontWeight:'100',fontFamily:'Lato'}}>OUR TEAM</h1>
-                </Container>
-            <Container>
+            <Row style={{...rowStyles}}>
+            <Col className="p-4 offset-lg-6 offset-md-6" xs="12" sm="12" md="12" lg="12" xl="6">
+                <Heading bcolor="#004191" className="pb-3 mb-3">Our Team</Heading>
+            
+            
                 <TeamList members={members}/>
-            </Container>
-            </div>
+            
+            </Col>
+            
+        </Row>
+            
         );
     }
+    
+    
 }
 
 export default TeamContainer;
