@@ -9,7 +9,8 @@ const rowStyles = {
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    color:'black'
+    color:'black',
+    borderBottom:'3px solid #3398ff'
 }
 
 const About = () => {
