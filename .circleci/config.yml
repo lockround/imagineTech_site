@@ -11,8 +11,9 @@ jobs:
           name: Setup Dependencies
           command: npm install
       - run:
-          name: Build project
-          command: CI=false npm run build
-      - run:
           name: Deploy to firebase
           command: npm run deploy
+          
+#- run:
+#          name: Build project
+#          command: CI=false npm run build
