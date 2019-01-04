@@ -9,7 +9,7 @@ const Footer = () => {
         <Row>
             <Col lg="8">
             <h3>About</h3>
-            <p>Imaginetech is a web designing/development company based on Utah, USA.</p>
+            <p>Imaginetech is a web designing/development company based in Utah, USA.</p>
             </Col>
             <Col lg="4">
                 <form>

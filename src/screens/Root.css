@@ -41,6 +41,19 @@ nav>div>ul>li.dropdown.show.nav-item>div>button>a {
     color: black!important;
 }
 
+button {
+    background-color: transparent!important;
+    transition: background-color 1s;
+}
+
+button:hover {
+    background-color: #3398ff!important;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
 input[type=text]:focus,
 input[type=email]:focus,
 textarea:focus {
