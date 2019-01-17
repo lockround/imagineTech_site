@@ -15,8 +15,8 @@ const Backend = () => {
         <Row>
             <div className="d-flex">
                 <Col lg="12">
-                    <h1 className="text-shadowed__big">Future of backend</h1>
-                    <p>NoSQL, NewSQL, BigData and counting.</p>
+                    <h1 className="text-shadowed__big">Pellentesque congue erat libero</h1>
+                    <p>Nam in velit commodo, commodo nisi vel.</p>
                 </Col>
                 
                 
@@ -29,33 +29,33 @@ const Backend = () => {
                 <div className="d-flex">
                     <Col lg="4">
                         
-                        <h3 className="text-shadowed__small">NoSQL</h3>
+                        <h3 className="text-shadowed__small">XXXXX</h3>
                         <div className="d-flex align-items-center">
-                            <img src={`../assets/img/graphql.svg`} width="50px" className="mr-1"/>
-                            <img src={`../assets/img/node.svg`} width="50px" className="mr-1"/>
-                            <img src={`../assets/img/react.svg`} width="50px"/>
+                            <img src="https://img.icons8.com/office/80/000000/delete.png" width="50px" className="mr-1"/>
+                            <img src="https://img.icons8.com/office/80/000000/download-2.png" width="50px" className="mr-1"/>
+                            <img src="https://img.icons8.com/office/80/000000/folder-invoices.png" width="50px"/>
                         </div>
-                        <p>There are number of NoSQL databases available and we build web applications based on them. Now, no need to worry about scaling.</p>
+                        <p>Aenean ac aliquet sapien, a faucibus nisi. Ut eleifend lectus et lacus egestas bibendum. Etiam pretium, libero id faucibus tempus, metus arcu tincidunt dolor, id vulputate magna sem at mauris. In ut tincidunt quam. Mauris quis sem arcu. Nulla laoreet nisl tempus ipsum tincidunt, auctor ultricies lectus auctor. Duis eget purus non augue dapibus efficitur in eu turpis. Nam convallis ex neque, id facilisis dui varius vitae. Duis sodales ex libero, in venenatis enim lobortis sed.</p>
                     </Col>
                     <Col lg="4">
                         
-                        <h3 className="text-shadowed__small">BigData</h3>
+                        <h3 className="text-shadowed__small">YYYYYYY</h3>
                         <div className="d-flex align-items-center">
-                            <img src={`../assets/img/graphql.svg`} width="50px" className="mr-1"/>
-                            <img src={`../assets/img/node.svg`} width="50px" className="mr-1"/>
-                            <img src={`../assets/img/react.svg`} width="50px"/>
+                            <img src="https://img.icons8.com/office/80/000000/delete.png" width="50px" className="mr-1"/>
+                            <img src="https://img.icons8.com/office/80/000000/download-2.png" width="50px" className="mr-1"/>
+                            <img src="https://img.icons8.com/office/80/000000/folder-invoices.png" width="50px"/>
                         </div>
-                        <p>To manage trillions of bytes of data BigData concept is the king and yes we support that.</p>
+                        <p>Vivamus diam tellus, tempus a facilisis id, rutrum in libero. Nam in velit commodo, commodo nisi vel, maximus elit. Aenean tincidunt est ac dolor sodales, sed pellentesque risus pellentesque. Proin convallis velit magna, vel finibus erat venenatis sit amet. In tempor maximus tristique. Donec erat eros, consequat a consequat ut, commodo nec dolor. Cras ac lacus a sem suscipit aliquet id id augue. Donec eu tellus nec urna pharetra maximus. In hac habitasse platea dictumst. Morbi vulputate varius est, sit amet iaculis enim porttitor ut. In laoreet hendrerit nunc ut placerat. In non molestie neque.</p>
                     </Col>
                     <Col lg="4">
                         
-                        <h3 className="text-shadowed__small">APIs</h3>
+                        <h3 className="text-shadowed__small">ZZZZZZ</h3>
                         <div className="d-flex align-items-center">
-                            <img src={`../assets/img/graphql.svg`} width="50px" className="mr-1"/>
-                            <img src={`../assets/img/node.svg`} width="50px" className="mr-1"/>
-                            <img src={`../assets/img/react.svg`} width="50px"/>
+                            <img src="https://img.icons8.com/office/80/000000/delete.png" width="50px" className="mr-1"/>
+                            <img src="https://img.icons8.com/office/80/000000/download-2.png" width="50px" className="mr-1"/>
+                            <img src="https://img.icons8.com/office/80/000000/folder-invoices.png" width="50px"/>
                         </div>
-                        <p>APIs are most powerful and the true power is not unleased yet, but they are the future of data piping. Gone are the days when MySQL, MongoDB etc on local computer was a thing.</p>
+                        <p>Aenean ac aliquet sapien, a faucibus nisi. Ut eleifend lectus et lacus egestas bibendum. Etiam pretium, libero id faucibus tempus, metus arcu tincidunt dolor, id vulputate magna sem at mauris. In ut tincidunt quam. Mauris quis sem arcu. Nulla laoreet nisl tempus ipsum tincidunt, auctor ultricies lectus auctor. Duis eget purus non augue dapibus efficitur in eu turpis. Nam convallis ex neque, id facilisis dui varius vitae. Duis sodales ex libero, in venenatis enim lobortis sed.</p>
                     </Col>
                     </div>
                 </Row>

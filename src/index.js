@@ -13,6 +13,6 @@ render(
     <Router history={history}>
         <Root />
     </Router>,
-    document.getElementById('root')
+    document.getElementById('*')
     );
 serviceWorker.register();

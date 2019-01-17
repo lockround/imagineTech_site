@@ -49,7 +49,7 @@ const Content = ({ choose, marketing, react, ui, backend }) => {
                 <Col xs="12" md="3" sm="6" className="d-flex justify-content-center align-items-center">
                     <Image 
                     src={`../assets/img/hex.png`} 
-                    text="Marketing and Research      "
+                    text="Vivamus diam tellus"
                     choose={choose}
                     val="marketing"
                     />
@@ -57,7 +57,7 @@ const Content = ({ choose, marketing, react, ui, backend }) => {
                 <Col xs="12" md="3" sm="6" className="d-flex justify-content-center align-items-center">
                     <Image 
                     src={`../assets/img/hex.png`} 
-                    text="Single Page React Apps"
+                    text="Ut eleifend lectus et lacus"
                     choose={choose}
                     val="react"
                     />
@@ -65,7 +65,7 @@ const Content = ({ choose, marketing, react, ui, backend }) => {
                 <Col xs="12" md="3" sm="6" className="d-flex justify-content-center align-items-center">
                     <Image 
                     src={`../assets/img/hex.png`} 
-                    text="UX/UI Design"
+                    text="Donec ac tempor felis"
                     choose={choose}
                     val="ui"
                     />
@@ -73,7 +73,7 @@ const Content = ({ choose, marketing, react, ui, backend }) => {
                 <Col xs="12" md="3" sm="6" className="d-flex justify-content-center align-items-center">
                     <Image 
                     src={`../assets/img/hex.png`} 
-                    text="Backend Technologies"
+                    text="Sed posuere eget eros in porta."
                     choose={choose}
                     val="backend"
                     />

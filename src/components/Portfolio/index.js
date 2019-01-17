@@ -7,9 +7,9 @@ import Heading from '../Home/repeats/Heading';
 class PortfolioContainer extends Component {
     state = {
         projects: [
-            { id: 1, name: "United Trucking Service", desc: "A trucking service company site.", img: "https://picsum.photos/300" },
-            { id: 2, name: "Distribution CRM", desc: "CRM application.", img: "https://picsum.photos/300" },
-            { id: 3, name: "ImagineTech Site", desc: "Official website of our company.", img: "https://picsum.photos/300" }
+            { id: 1, name: "Vestibulum venenatis lorem", desc: "Pellentesque vel vulputate lectus, at faucibus risus..", img: "https://picsum.photos/300" },
+            { id: 2, name: "Praesent finibus varius turpis", desc: "Nulla quis dapibus quam.", img: "https://picsum.photos/300" },
+            { id: 3, name: "Curabitur accumsan rhoncus", desc: "Curabitur bibendum purus metus,.", img: "https://picsum.photos/300" }
         ]
     }
 

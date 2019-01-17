@@ -9,11 +9,6 @@ class ServicesContainer extends Component {
             <div>
                 <div style={{backgroundColor:'#f4f4f4',padding:'1em',color:'black'}}>
                     <Container>
-                        <FrontEnd/>
-                    </Container>
-                </div>
-                <div style={{backgroundColor:'#f4f4f4',padding:'1em',color:'black'}}>
-                    <Container>
                         <BackEnd/>
                     </Container>
                 </div>

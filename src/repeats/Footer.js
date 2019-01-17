@@ -9,7 +9,7 @@ const Footer = () => {
         <Row>
             <Col lg="8">
             <h3>About</h3>
-            <p>Imaginetech is a web designing/development company based on Utah, USA.</p>
+            <p>Morbi vulputate varius est, sit amet iaculis enim porttitor ut. In laoreet hendrerit nunc ut placerat. In non molestie neque. Aenean ac aliquet sapien, a faucibus nisi. Ut eleifend lectus.</p>
             </Col>
             <Col lg="4">
                 <form>
@@ -31,7 +31,7 @@ const Footer = () => {
             </Col>*/}
             <Col lg="8">
                 <div className="d-flex align-items-center">
-                <p style={{marginBottom:'0'}}>© 2019 ImagineTech, Inc. | </p> 
+                <p style={{marginBottom:'0'}}>© 2019 XXXXXX, Inc. | </p> 
                 <Nav>
                 
                     <NavItem>

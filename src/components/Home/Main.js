@@ -13,7 +13,7 @@ const Main = () => {
     return (
         <Row style={{...rowStyles}}>
             <Col className="d-flex align-items-center flex-column justify-content-center" xs="12" sm="12" md="12" lg="12" xl="12">
-                <h1 className="text-secondary">Imagine.Believe.Create</h1>
+                <h1 className="text-secondary">XXXX.XXXX.XXXX</h1>
             </Col>
         </Row>
     )

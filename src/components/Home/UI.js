@@ -15,14 +15,9 @@ const UI = () => {
     return (
         <Row style={{...rowStyles}}>
             <Col className="p-4 offset-md-6 offset-lg-6" xs="12" sm="12" md="12" lg="12" xl="6">
-                    <Heading className="animated pulse" bcolor="#004191">UX/UI Design</Heading>
+                    <Heading className="animated pulse" bcolor="#004191">Vivamus laoreet volutpat</Heading>
                     <p className="para animated pulse">
-                        A UX designer will consider the Why, What and How of product use. The Why involves the users’ motivations for adopting a product, whether they relate to it, or to the values and views associated with the ownership and use of the product. 
-                        The What addresses the things people can do with a product - its functionality. 
-                        The How relates to the design of functionality in an accessible and aesthetically pleasant way. 
-                        <p>UX designers start with the Why before determining the What and then, finally, the How in order to create products that users can form meaningful experiences with. 
-                            In software designs, designers must ensure the product’s substance comes through an existing device and offers a seamless, fluid experience. 
-                        </p>
+                        Sed euismod felis at mauris tempus, quis imperdiet nibh consequat. Donec risus purus, sodales non rhoncus non, imperdiet ut diam. Integer semper consequat libero, ac scelerisque magna tincidunt vitae. Nam fringilla dolor in consectetur commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit malesuada libero. Nulla sit amet erat eleifend, iaculis elit dapibus, lacinia tellus. Suspendisse gravida dignissim mauris, at consequat magna tempor fringilla. Cras sit amet leo pharetra, porttitor lacus ut, faucibus eros. Nullam dui nibh, malesuada vel ipsum id, pharetra mollis odio. Praesent vitae velit vitae massa maximus hendrerit. Phasellus maximus tincidunt enim, ut varius nibh accumsan eu. Cras ut pharetra felis.
                     </p>
             </Col>
         </Row>

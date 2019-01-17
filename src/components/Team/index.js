@@ -15,7 +15,7 @@ class TeamContainer extends Component {
 
     state = {
         members: [
-            { id: 1, name: "Jahaziel Vazquez", role: "CEO",img:"https://randomuser.me/api/portraits/thumb/men/65.jpg" }
+            { id: 1, name: "XXXXXX", role: "CEO",img:"https://randomuser.me/api/portraits/thumb/men/65.jpg" }
         ]
     }
 

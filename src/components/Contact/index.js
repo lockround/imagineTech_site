@@ -39,19 +39,19 @@ class ContactContainer extends Component {
                     </Col>
                     <Col className="mt-4 offset-lg-1" lg="5">
                         <Heading color="#3398ff">Contact Us</Heading>
-                <p>Our team is always on the lookout for new partnership opportunities. Whether you want to talk web design, react, or marketing, drop us a line, we would love to hear from you!</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi posuere orci vitae condimentum malesuada.!</p>
                 
                     <div class="bd-example">
                       <address>
-                        <strong>ImagineTech, Inc.</strong><br/>
-                        1355 Market St, Suite 901<br/>
-                        Salt Lake City, UT 84101<br/>
-                        <abbr title="Phone">P:</abbr> (908) 546-0561
+                        <strong>XXXXX, Inc.</strong><br/>
+                        XXXX XXXX XXX<br/>
+                        XXXXXX, XX 87686<br/>
+                        <abbr title="Phone">P:</abbr> (XXX) XXX-XXXX
                       </address>
                     
                       <address>
                         <strong>Mail at:</strong><br/>
-                        info@imaginetech.net
+                        xxxxx@xxxxxxx.com
                       </address>
                     </div>
                     </Col>
